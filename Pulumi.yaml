@@ -1,0 +1,3 @@
+name: aws-outputfunction-test
+runtime: dotnet
+description: A minimal AWS C# Pulumi program
