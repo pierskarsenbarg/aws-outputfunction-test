@@ -21,10 +21,6 @@ class MyStack : Stack
             Bucket = bucket.Id,
             Key = bucketObject.Key
         });
-
-        BucketObjectModified = thisObject.Apply(x => x.LastModified);
     }
 
-   [Output] 
-   public Output<string> BucketObjectModified {get;set;}
 }
